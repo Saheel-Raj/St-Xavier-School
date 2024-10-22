@@ -1,0 +1,28 @@
+.pjnt-border {
+	border: 3px solid;
+	width: 100%;
+}
+.pjnt-label {
+	float: left;
+	margin: 0 7px;
+}
+.pjnt-box {
+	overflow: hidden;
+}
+.pjnt-content {
+	white-space: nowrap;
+	display: inline-block;
+	position: relative;
+	left: 0;
+}
+.pjnt-content .pjnt-item {
+	padding: 0 1rem;
+}
+
+.pjnt-content .pjnt-separator:first-of-type {
+	display: none;
+}
+
+.pjnt-content .pjnt-separator img {
+	display: inline-block;
+}
